@@ -1,0 +1,10 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Deterministic, non-production AES key used only by automated tests"
+targetRules = ["generic-api-key"]
+regexes = [
+  '''^MDEyMzQ1Njc4OWFiY2RlZjAxMjM0NTY3ODlhYmNkZWY=$''',
+  '''^0123456789abcdef0123456789abcdef$''',
+]

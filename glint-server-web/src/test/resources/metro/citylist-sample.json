@@ -1,0 +1,6 @@
+{
+  "citylist": [
+    {"spell": "beijing", "adcode": "1100", "cityname": "北京市"},
+    {"spell": "shanghai", "adcode": "3100", "cityname": "上海市"}
+  ]
+}
